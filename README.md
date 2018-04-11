@@ -25,6 +25,7 @@ Do code reviews - you are probably not the best judge as to whether your own cod
 The design can be driven by the cycles of testing and refactoring, for example:
 private methods indicate that your class should be split, creating a new class for those methods. Especially if the private methods get to be complex enough that you want to test them directly.
 
+"Code is like humour. When you *have* to explain it, it’s bad"
 Comments should only exist if they tell you something which the code cannot. Otherwise comments are a code smell - they indicate that complex methods have not been broken down into simple methods and methods have been given ambiguous names.
 
 A good comment and method: 
